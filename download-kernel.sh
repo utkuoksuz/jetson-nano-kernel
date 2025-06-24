@@ -6,7 +6,7 @@ TEGRA_KERNEL_OUT=`pwd`/workdir/out
 ## https://developer.nvidia.com/embedded/jetson-linux-archive
 ## -> Driver package (BSP) Sources
 PACK_NAME=public_sources.tbz2
-PACK_URL="https://developer.download.nvidia.com/embedded/L4T/r32_Release_v7.4/Sources/T210/public_sources.tbz2"
+PACK_URL="https://developer.nvidia.com/downloads/embedded/l4t/r32_release_v7.6/sources/t210/public_sources.tbz2"
 #PACK_SIZE=$(LC_ALL=C wget --spider "${PACK_URL}" 2>&1 | grep '^Length: [0-9]\+' | cut -d' ' -f2)
 PACK_SIZE=162093940
 KERNEL_DIR=kernel/kernel-4.9
